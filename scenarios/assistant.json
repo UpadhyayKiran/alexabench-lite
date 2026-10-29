@@ -1,0 +1,12 @@
+[
+  {"id":"en_timer","language":"en","prompt":"Set a timer for 5 minutes.","expected":{"action":"set_timer","minutes":5}},
+  {"id":"hi_timer","language":"hi","prompt":"टाइमर लगाओ 5 मिनट।","expected":{"action":"set_timer","minutes":5}},
+  {"id":"en_on","language":"en","prompt":"Turn on the light.","expected":{"action":"light","state":"on"}},
+  {"id":"hi_on","language":"hi","prompt":"लाइट चालू करो।","expected":{"action":"light","state":"on"}},
+  {"id":"en_off","language":"en","prompt":"Turn off the light.","expected":{"action":"light","state":"off"}},
+  {"id":"hi_off","language":"hi","prompt":"लाइट बंद करो।","expected":{"action":"light","state":"off"}},
+  {"id":"en_ambiguous","language":"en","prompt":"Set a timer.","expected":{"action":"clarify"}},
+  {"id":"hi_ambiguous","language":"hi","prompt":"टाइमर लगाओ।","expected":{"action":"clarify"}},
+  {"id":"en_unknown","language":"en","prompt":"Book a flight to London.","expected":{"action":"clarify"}},
+  {"id":"hi_unknown","language":"hi","prompt":"दिल्ली का टिकट बुक करो।","expected":{"action":"clarify"}}
+]

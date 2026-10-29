@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+# Immutable experiment evidence: preserve exact bytes and recorded checksums.
+data/** -text whitespace=cr-at-eol
+results/** -text whitespace=cr-at-eol
+docs/historical_baseline_sha256.json -text whitespace=cr-at-eol

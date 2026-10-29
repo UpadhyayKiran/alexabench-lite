@@ -1,0 +1,4 @@
+﻿group,total,instruction_following,task_completion
+all,10,1.0,1.0
+en,5,1.0,1.0
+hi,5,1.0,1.0

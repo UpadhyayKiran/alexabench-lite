@@ -1,0 +1,12 @@
+{
+  "results/assistant_baseline/assistant.csv": "1e0897a07d9d24d3956dbbf5639e76b32f9d33e2bd241ff87196d06ddad3e524",
+  "results/assistant_baseline/assistant.json": "7bdf2f1bf0c4bf4f70859f7281aaa1303e0d67eacaa4404379d772fc6a488f8e",
+  "results/assistant_baseline/assistant_summary.csv": "55d08f14f4480fa7b0734a0258525b39a155af4549a98c864bda00e557798cb3",
+  "results/real_cpu_tiny/asr.csv": "04c3660e319d4b67704329ce3e88e6a89b576b280ab37353c7d841250397c6f7",
+  "results/real_cpu_tiny/asr.json": "c8ebb4644d2a68c239a932f0d6b14a7914e3f6be4ffc1b352aea10f2e5aa05a8",
+  "results/real_cpu_tiny/asr_summary.csv": "b1fd9d733f306377461c4399c3107f19a7161c0a36cf7ce2e96e311fec68113e",
+  "results/real_cuda_tiny/asr.csv": "4382de229feb9ac666bd887e411aabbc3eb7eb144b9cc56bd965c96f1022ec61",
+  "results/real_cuda_tiny/asr.json": "e49c95332aa5bd317dee9caa4a75c6788523669ca44fda3a4cb0511587e7a824",
+  "results/real_cuda_tiny/asr_summary.csv": "aab28f70b1ccf25ab5dcb755ff702ea9a20d09eb0b16a8f6d80c79a48e994b05",
+  "data/fleurs/manifest.json": "acbb04ea6aefe78c29f629d2dbc0550dc5f13163b8b28d7b290556ec493c2d33"
+}

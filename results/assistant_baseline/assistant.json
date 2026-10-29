@@ -1,0 +1,175 @@
+{
+  "kind": "rule_baseline",
+  "items": [
+    {
+      "id": "en_timer",
+      "language": "en",
+      "prompt": "Set a timer for 5 minutes.",
+      "expected": {
+        "action": "set_timer",
+        "minutes": 5
+      },
+      "response": {
+        "action": "set_timer",
+        "minutes": 5
+      },
+      "inference_seconds": 0.0001885999990918208,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "hi_timer",
+      "language": "hi",
+      "prompt": "टाइमर लगाओ 5 मिनट।",
+      "expected": {
+        "action": "set_timer",
+        "minutes": 5
+      },
+      "response": {
+        "action": "set_timer",
+        "minutes": 5
+      },
+      "inference_seconds": 1.6699999832781032e-05,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "en_on",
+      "language": "en",
+      "prompt": "Turn on the light.",
+      "expected": {
+        "action": "light",
+        "state": "on"
+      },
+      "response": {
+        "action": "light",
+        "state": "on"
+      },
+      "inference_seconds": 5.40000110049732e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "hi_on",
+      "language": "hi",
+      "prompt": "लाइट चालू करो।",
+      "expected": {
+        "action": "light",
+        "state": "on"
+      },
+      "response": {
+        "action": "light",
+        "state": "on"
+      },
+      "inference_seconds": 5.300000339047983e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "en_off",
+      "language": "en",
+      "prompt": "Turn off the light.",
+      "expected": {
+        "action": "light",
+        "state": "off"
+      },
+      "response": {
+        "action": "light",
+        "state": "off"
+      },
+      "inference_seconds": 4.800000169780105e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "hi_off",
+      "language": "hi",
+      "prompt": "लाइट बंद करो।",
+      "expected": {
+        "action": "light",
+        "state": "off"
+      },
+      "response": {
+        "action": "light",
+        "state": "off"
+      },
+      "inference_seconds": 4.399998942972161e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "en_ambiguous",
+      "language": "en",
+      "prompt": "Set a timer.",
+      "expected": {
+        "action": "clarify"
+      },
+      "response": {
+        "action": "clarify"
+      },
+      "inference_seconds": 3.600000127335079e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "hi_ambiguous",
+      "language": "hi",
+      "prompt": "टाइमर लगाओ।",
+      "expected": {
+        "action": "clarify"
+      },
+      "response": {
+        "action": "clarify"
+      },
+      "inference_seconds": 6.900001608300954e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "en_unknown",
+      "language": "en",
+      "prompt": "Book a flight to London.",
+      "expected": {
+        "action": "clarify"
+      },
+      "response": {
+        "action": "clarify"
+      },
+      "inference_seconds": 5.800000508315861e-06,
+      "instruction_following": true,
+      "task_completed": true
+    },
+    {
+      "id": "hi_unknown",
+      "language": "hi",
+      "prompt": "दिल्ली का टिकट बुक करो।",
+      "expected": {
+        "action": "clarify"
+      },
+      "response": {
+        "action": "clarify"
+      },
+      "inference_seconds": 6.600001142942347e-06,
+      "instruction_following": true,
+      "task_completed": true
+    }
+  ],
+  "summary": {
+    "all": {
+      "total": 10,
+      "instruction_following": 1.0,
+      "task_completion": 1.0
+    },
+    "en": {
+      "total": 5,
+      "instruction_following": 1.0,
+      "task_completion": 1.0
+    },
+    "hi": {
+      "total": 5,
+      "instruction_following": 1.0,
+      "task_completion": 1.0
+    }
+  },
+  "scenarios_sha256": "1e20af5c7c9e7440ca0ebf13019452e5673bdc497512b7f38239ea944ff0950f"
+}

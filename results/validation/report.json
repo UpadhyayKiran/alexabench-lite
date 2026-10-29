@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-29T14:52:37.691093+00:00",
+  "python": "3.11.9",
+  "pytest": {
+    "tests": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "unique_recordings": 60,
+  "model_recording_evaluations": 120,
+  "manifest_sha256": "da430ca01672e70c4cfb48c19afc41279c3c2fa0ea275c7f77fc0c02061d3268",
+  "historical_artifacts_unchanged": 10,
+  "checks": [
+    "raw references and TSV hashes",
+    "audio hashes and decoded sample counts",
+    "identical ordered inputs across models",
+    "pinned model files verified",
+    "CUDA float16 without fallback",
+    "per-item metrics independently recomputed",
+    "aggregates and comparison recomputed",
+    "historical evidence unchanged",
+    "full pytest suite passed"
+  ],
+  "source_sha256": {
+    "alexabench/__init__.py": "0b81791638200a5599db7d9e5d9e0a725fb0435b7177e8e8812f23a3c70ac25d",
+    "alexabench/asr.py": "b45b2a5d9044d2fd9e142b80ade63f0dd04225339d0cdd9698104e8202393dc1",
+    "alexabench/assistant.py": "2231b4ee9cb033d2463da7f79a4306e8908ece843a9589ecd8f2f2112d29c889",
+    "alexabench/cli.py": "29bf1dc3a0f4c0f62b069253f9b4a9c5e8c10549a94ad8de2f30d01b70b09211",
+    "alexabench/compare.py": "3027fabd3598808ec19c8a541006879e67b940c6bdf1af8d0a2a5cd9ed9c49bd",
+    "alexabench/dataset.py": "ada88fe3a54633397afc0f6e6e08487bea67b8ac16335622881ff9f395e00960",
+    "alexabench/diagnostics.py": "7968971f41bdb2ad78e0b6557f6b7b6aed42cf1adea401a7de9788cac298a245",
+    "alexabench/evaluate.py": "96c44b338f90af6b994a6a59854d5ee9a8f457d04719755997e867122b538a3a",
+    "alexabench/hardware.py": "99f3c63a8cb6fae6aa6bc187fdd6f05cd5a8c55f45a63aa1e02f03c26f723524",
+    "alexabench/text.py": "4ad56d2c8fef8a64f04ca582d73aeb620ccc6ed1fabc924b46b16485e10a1ae6"
+  },
+  "result_sha256": {
+    "results/comparison_60/base/asr.csv": "674d42d96d42b514bb717263efb26ca99978e10ed98e41ed3cb7fd40f8732ff0",
+    "results/comparison_60/base/asr.json": "3f043053972594aa04d7d930b7a65c8e39523f1aad36c2fcf542d7c400210425",
+    "results/comparison_60/base/asr_summary.csv": "12d30e216c76d7e853eff85d74a8b814f7e2ddd3c68e2c4a6bebdaea46971371",
+    "results/comparison_60/comparison.csv": "dda8ec89690ab1a00bce2c0eca3b8a235d4bf5b68045f6433a687b21411c6e4c",
+    "results/comparison_60/comparison.json": "25b92e0d3fcdf41109fb941e9c08acd7a650c0cbb10558653303add555d29e82",
+    "results/comparison_60/differences.csv": "83e8407658d0c299d64d2e9eb08e7ff420ebe2f5e8cfda04f2ec847c4ae6ad23",
+    "results/comparison_60/table.md": "26e9c4ac66ba0810719e76366688a5c723426685d62358ac70156ae8dceafbec",
+    "results/comparison_60/tiny/asr.csv": "64d0992267eeae073ef9dd6e2d3c48315543c648e7a57a9822a313b840da5755",
+    "results/comparison_60/tiny/asr.json": "4886c012dd2a234e550913c1126c0e8c166eed70bb694a1dbe7feef9cc7646e1",
+    "results/comparison_60/tiny/asr_summary.csv": "3bcd1c5ac2e979b179b2b752d0925d8efa43f79013c0d6918e99251873e2f010"
+  }
+}

@@ -1,0 +1,11 @@
+﻿id,language,prompt,expected,response,inference_seconds,instruction_following,task_completed
+en_timer,en,Set a timer for 5 minutes.,"{'action': 'set_timer', 'minutes': 5}","{'action': 'set_timer', 'minutes': 5}",0.0001885999990918208,True,True
+hi_timer,hi,टाइमर लगाओ 5 मिनट।,"{'action': 'set_timer', 'minutes': 5}","{'action': 'set_timer', 'minutes': 5}",1.6699999832781032e-05,True,True
+en_on,en,Turn on the light.,"{'action': 'light', 'state': 'on'}","{'action': 'light', 'state': 'on'}",5.40000110049732e-06,True,True
+hi_on,hi,लाइट चालू करो।,"{'action': 'light', 'state': 'on'}","{'action': 'light', 'state': 'on'}",5.300000339047983e-06,True,True
+en_off,en,Turn off the light.,"{'action': 'light', 'state': 'off'}","{'action': 'light', 'state': 'off'}",4.800000169780105e-06,True,True
+hi_off,hi,लाइट बंद करो।,"{'action': 'light', 'state': 'off'}","{'action': 'light', 'state': 'off'}",4.399998942972161e-06,True,True
+en_ambiguous,en,Set a timer.,{'action': 'clarify'},{'action': 'clarify'},3.600000127335079e-06,True,True
+hi_ambiguous,hi,टाइमर लगाओ।,{'action': 'clarify'},{'action': 'clarify'},6.900001608300954e-06,True,True
+en_unknown,en,Book a flight to London.,{'action': 'clarify'},{'action': 'clarify'},5.800000508315861e-06,True,True
+hi_unknown,hi,दिल्ली का टिकट बुक करो।,{'action': 'clarify'},{'action': 'clarify'},6.600001142942347e-06,True,True

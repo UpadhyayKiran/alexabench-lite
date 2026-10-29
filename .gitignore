@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.cache/
+# Dataset audio/TSVs remain local; redistribute only manifests and licensed excerpts.
+data/**/*.wav
+data/**/*.tsv
+*.tar.gz
+*.parquet
+*.partial
+# Downloaded model artifacts and local credentials.
+*.bin
+*.safetensors
+*.pt
+*.onnx
+.env
+.env.*
+*.pem
+*.key
+*.log
+.coverage
+htmlcov/
+build/
+dist/
+results/reproduce*/
+data/reproduce*/
